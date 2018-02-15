@@ -58,3 +58,5 @@ The weights in the edge list are the miles between the cities. The colors on the
 ### Submission Options
 * Submit your assignment as a single pdf to `sastrand@pdx.edu` before the due date above.
 * Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. I will pull a final copy when I grade. Please make one `.txt` or `.md` file in the repo that will serve as your submission. For each question that includes code, include a link in your submission document to the file in the repo containing the relevant code.
+
+> Amtrak map image credit: https://upload.wikimedia.org/wikipedia/commons/9/9f/Amtrakfreqmapcolor.png
