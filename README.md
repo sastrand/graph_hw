@@ -5,7 +5,7 @@
 
 Directed, acyclic graphs are used in several ways to model how large software projects are developed and deployed.
 
-One such application of a DAG is a dependency graph. In a large project code may be broken up into distinct services that each run on their own CPU. Some can run independently, and many will require some combination of others to be already running. This complexity is well modeled in a DAG with each service represented by a node and the graph as a whole representing the product. 
+One such application of a DAG is a dependency graph. In a large project code may be broken up into distinct services. Some can run independently, but many will require some combination of others to be already running. These relationships are modeled well in a DAG with each service in the product represented by a node and a directed edge from A to B indicating that B depdends on A.
 
 A topological sort of this DAG represents any valid start-up order of the product.
 
