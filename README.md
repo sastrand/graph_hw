@@ -9,7 +9,7 @@ A topological sort of this DAG represents any valid start-up order of the produc
 
 ![CWS_CAP](https://github.com/sastrand/graph_hw/blob/master/CWS_CAP.png)
 
-1. List five different valid topological sorts of the graph of the Cascadia Web Services' Customer Analysis Product.
+1. Using the numbers that represent each service, list five different topological sorts of the graph of the Cascadia Web Services' Customer Analysis Product.
 
 2. Based on the following pseudocode found [here](https://en.wikipedia.org/wiki/Topological_sorting), implement Khan's algorithm to find a topological sort for any given graph. Include your code with your submission
 
@@ -52,8 +52,9 @@ The weights in the edge list are the miles between the cities. The colors on the
 5. In the event that Amtrak needs to discontinue parts of the system, we may hope they do so without completely removing service to any given city. For instance they could remove the route from Tampa to Orlando while still serving both cities through Miami. Based on the following pseudocode found [here](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/) implement Prim's algorithm to find the minimum spanning tree of the given Amtrak system, that is, the lines that use the fewest miles of track to connect all the cities currently served.
 
        1. Sort all the edges in non-decreasing order of their weight.
-       2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed, include this edge. Else, discard it.
-       3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+       2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. 
+          If cycle is not formed, include this edge. Else, discard it.
+       3. Repeat step #2 until there are (V-1) edges in the spanning tree.
 
 ### Submission Options
 * Submit your assignment as a single pdf to `sastrand@pdx.edu` before the due date above.
