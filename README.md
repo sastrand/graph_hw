@@ -5,7 +5,7 @@
 
 Directed, acyclic graphs are used in several ways to model how large software projects are developed and deployed.
 
-One such application of a DAG is a dependency graph. In a large project code may be broken up into distinct services that each run on their own CPU. Some can run indenpendently and many will require some combination of others to be already running. This complexity is well modeled in a DAG with each service represented by a node and the graph as a whole representing the product. 
+One such application of a DAG is a dependency graph. In a large project code may be broken up into distinct services that each run on their own CPU. Some can run independently, and many will require some combination of others to be already running. This complexity is well modeled in a DAG with each service represented by a node and the graph as a whole representing the product. 
 
 A topological sort of this DAG represents any valid start-up order of the product.
 
@@ -13,7 +13,7 @@ A topological sort of this DAG represents any valid start-up order of the produc
 
 1. Using the numbers that represent each service, list five different topological sorts of the graph of the Cascadia Web Services' Customer Analysis Product.
 
-2. Based on the following pseudocode found [here](https://en.wikipedia.org/wiki/Topological_sorting), implement Khan's algorithm to find a topological sort for any given graph. Include your code with your submission
+2. Based on the following pseudocode (sourced from [here](https://en.wikipedia.org/wiki/Topological_sorting)), implement Khan's algorithm to find a topological sort for any given graph. Include your code with your submission
 
        L ← Empty list that will contain the sorted elements
        S ← Set of all nodes with no incoming edge
@@ -29,7 +29,7 @@ A topological sort of this DAG represents any valid start-up order of the produc
        else 
            return L (a topologically sorted order)
 
-3. Test you algorithm on the Cascadia Web Services graph, include your test case and result with your submission.
+3. Test your algorithm on the Cascadia Web Services graph, include your test case and result with your submission.
 
 ### Part II
 
@@ -53,9 +53,9 @@ The weights in the edge list are the miles between the cities. The colors on the
                known = union(known, {vnext})
 
 
-In the event that Amtrak needs to discontinue parts of the system, we may hope they do so without completely removing service to any given city. For instance they could remove the route from Tampa to Orlando while still serving both cities through Miami. 
+In the event that Amtrak needs to discontinue parts of the system, we may hope they do so without completely removing service to any given city. For instance, they could remove the route from Tampa to Orlando while still serving both cities through Miami. 
 
-5. Based on the following pseudocode found [here](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/) implement Prim's algorithm to find the minimum spanning tree of the given Amtrak system, that is, the lines that use the fewest miles of track to connect all the cities currently served. Include your code and test output with your submission.
+5. Based on the following pseudocode (sourced from [here](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)) implement Prim's algorithm to find the minimum spanning tree of the given Amtrak system, that is, the lines that use the fewest miles of track to connect all the cities currently served. Include your code and test output with your submission.
 
        1. Sort all the edges in non-decreasing order of their weight.
        2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. 
