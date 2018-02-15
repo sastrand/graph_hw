@@ -7,7 +7,9 @@ One such application of a DAG is a dependency graph. In a large project code may
 
 A topological sort of this DAG represents any valid start-up order of the product.
 
-1. List five different valid topological sorts of the graph.
+![CWS_CAP](https://github.com/sastrand/graph_hw/blob/master/CWS_CAP.png)
+
+1. List five different valid topological sorts of the graph of the Cascadia Web Services' Customer Analysis Product.
 
 2. Based on the following pseudocode found [here](https://en.wikipedia.org/wiki/Topological_sorting), implement Khan's algorithm to find a topological sort for any given graph. Include your code with your submission
 
@@ -26,6 +28,8 @@ A topological sort of this DAG represents any valid start-up order of the produc
            return L (a topologically sorted order)
 
 3. Test you algorithm on the Cascadia Web Services graph, include your test case and result with your submission.
+
+![Amtrak](https://github.com/sastrand/graph_hw/blob/master/Amtrakfreqmapcolor.png)
 
 Above is a map of Amtrak's current rail lines in the United States. I represented this graph as a weighted edge list with all the cities removed that are neither the terminal of a line nor a junction between at least three cities (except Portland--we're still there). I also removed the "Auto Train" from Lorton, VA to Sanford, FL.
 
