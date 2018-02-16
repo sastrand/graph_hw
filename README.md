@@ -1,5 +1,5 @@
 ## Graph Homework
-### Due at 5pm, Friday March 9, 2018
+### Due Friday March 9, 2018 at 5pm
 
 ### Part I
 
