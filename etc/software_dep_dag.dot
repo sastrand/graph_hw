@@ -1,0 +1,15 @@
+digraph software_prj {
+	"1: database" -> "2: database UI"
+	"2: database UI" -> "3: service A"
+	"2: database UI" -> "5: service B"
+	"2: database UI" -> "10: service C"
+	"9: configuration manager" -> "3: service A"
+	"9: configuration manager" -> "5: service B"
+	"9: configuration manager" -> "10: service C"
+	"9: configuration manager" -> "11: service D"
+	"3: service A" -> "4: log manager A"
+	"5: service B" -> "6: log manager B"
+	"10: service C" -> "6: log manager B"
+	"7: analytic database" -> "5: service B"
+	"7: analytic database" -> "8: business intelligence tool"
+}
