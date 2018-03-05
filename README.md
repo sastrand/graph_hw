@@ -41,6 +41,8 @@ The weights in the edge list are the miles between cities. The colors on the map
 
 4. Based on the following pseudocode (sourced from [here](https://en.wikipedia.org/wiki/A*_search_algorithm)), implement the A\* algorithm to find the shortest path between Emeryville and Raleigh. Include your code and test output with your submission.
 
+For an excellent approach to a heuristic function, check out the class's general Slack channel. Pending the author's permission, I will add the table of Euclidean distances to this repo.
+
         function A*(start, goal)
             // The set of nodes already evaluated
             closedSet := {}
