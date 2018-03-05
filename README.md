@@ -41,7 +41,7 @@ The weights in the edge list are the miles between cities. The colors on the map
 
 4. Based on the following pseudocode (sourced from [here](https://en.wikipedia.org/wiki/A*_search_algorithm)), implement the A\* algorithm to find the shortest path between Emeryville and Raleigh. Include your code and test output with your submission.
 
-For an excellent approach to a heuristic function, check out the class's general Slack channel. Pending the author's permission, I will add the table of Euclidean distances to this repo.
+For use by a heuristic function, the file `amtrac_euc.txt` contains the Euclidean distances between each city in the dataset. The original `amtrac_euc.txt` file and the script that generated it are available [here](https://github.com/jeff-lund/AmtrakHeuristics). 
 
         function A*(start, goal)
             // The set of nodes already evaluated
@@ -120,3 +120,4 @@ In the event that Amtrak needs to discontinue parts of the system, we may hope t
 * Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. I will pull a final copy when I grade. Please make one `.txt` or `.md` file in the repo that will serve as your submission. For each question that includes code, include a link in your submission document to the file in the repo containing the relevant code.
 
 > Amtrak map image credit: https://upload.wikimedia.org/wikipedia/commons/9/9f/Amtrakfreqmapcolor.png
+> `amtrak_euc.txt` source: https://github.com/jeff-lund/AmtrakHeuristics
