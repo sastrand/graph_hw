@@ -106,7 +106,7 @@ For use by a heuristic function, the file `amtrac_euc.txt` contains the Euclidea
 
 In the event that Amtrak needs to discontinue parts of the system, we may hope they do so without completely removing service to any given city. For instance, they could remove the route from Tampa to Orlando while still serving both cities through Miami. 
 
-5. Based on the following pseudocode (sourced from [here](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)) implement Prim's algorithm to find the minimum spanning tree of the given Amtrak system, that is, the lines that use the fewest miles of track to connect all the cities currently served (in the `amtrak.txt` file). Include your code and test output with your submission.
+5. Based on the following pseudocode (sourced from [here](https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)) implement Kruskal's algorithm to find the minimum spanning tree of the given Amtrak system, that is, the lines that use the fewest miles of track to connect all the cities currently served (in the `amtrak.txt` file). Include your code and test output with your submission.
 
        1. Sort all the edges in non-decreasing order of their weight.
        2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. 
