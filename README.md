@@ -116,7 +116,7 @@ In the event that Amtrak needs to discontinue parts of the system, we may hope t
 
 ### Submission Options
 * Zip your program files and example test output up into one zipped directory and submit it to D2L.
-* Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. Please make one `.txt` or `.md` file with your example output.
+* Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. I will pull a final copy when I grade. Please make one `.txt` or `.md` file with your example output.
 
 > Amtrak map image credit: https://upload.wikimedia.org/wikipedia/commons/9/9f/Amtrakfreqmapcolor.png
 > `amtrak_euc.txt` source: https://github.com/jeff-lund/AmtrakHeuristics
