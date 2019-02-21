@@ -1,5 +1,4 @@
 ## Graph Homework
-### Due Friday March 9, 2018 at 5pm
 
 ### Part I
 
@@ -35,7 +34,7 @@ A topological sort of this DAG represents any valid start-up order of the produc
 
 ![Amtrak](https://github.com/sastrand/graph_hw/blob/master/etc/Amtrakfreqmapcolor.png)
 
-Above is a map of Amtrak's current rail lines in the United States. I represented this graph as a weighted edge list [here](https://github.com/sastrand/graph_hw/blob/master/amtrak.txt) with all the cities removed that are neither the terminal of a line nor a junction between at least three cities (except Portland--we're still there). I also removed the "Auto Train" from Lorton, VA to Sanford, FL.
+Above is a map of Amtrak's current rail lines in the United States. This graph is represented as a weighted edge list [here](https://github.com/sastrand/graph_hw/blob/master/amtrak.txt) with all the cities removed that are neither the terminal of a line nor a junction between at least three cities (except Portland--we're still there). I also removed the "Auto Train" from Lorton, VA to Sanford, FL because I was suspicious that it was not an actual train.
 
 The weights in the edge list are the miles between cities. The colors on the map represent frequency of service and can be ignored here. We'll assume the graph is undirected.
 
@@ -116,8 +115,8 @@ In the event that Amtrak needs to discontinue parts of the system, we may hope t
 6. What percentage of their network could Amtrak discontinue if they implemented this new minimal route? 
 
 ### Submission Options
-* Submit your assignment as a single pdf to `sastrand@pdx.edu` before the due date above.
-* Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. I will pull a final copy when I grade. Please make one `.txt` or `.md` file in the repo that will serve as your submission. For each question that includes code, include a link in your submission document to the file in the repo containing the relevant code.
+* Zip your program files and example test output up into one zipped directory and submit it to D2L.
+* Create a private github repository and add github user `sastrand` as a collaborator. Email me with your repo link anytime before the due date. Please make one `.txt` or `.md` file with your example output.
 
 > Amtrak map image credit: https://upload.wikimedia.org/wikipedia/commons/9/9f/Amtrakfreqmapcolor.png
 > `amtrak_euc.txt` source: https://github.com/jeff-lund/AmtrakHeuristics
